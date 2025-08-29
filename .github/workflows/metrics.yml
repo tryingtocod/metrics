@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Run GitHub Metrics
         uses: lowlighter/metrics@v2.2.0 # substitua pela última versão disponível
